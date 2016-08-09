@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Employee Database</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="jumbotron">
+		<h1 class="text-center">Employee Data Management</h1>
+		<h3 class="text-center">A Comprehensive Directory of Employee Billable Hours</h3>
+		</div>
+		<div class="panel panel-primary">
+		  <div class="panel-heading">Current Employees</div>
+		  <div class="panel-body">
+		  	<div class="table-responsive">
+		    <table class="table striped-rows">
+		    	<thead class="table-head">
+		    		<td>Employee Name</td>
+		    		<td>Date</td>
+		    		<td>Role</td>
+		    		<td>Start Date</td>
+		    		<td>Months Worked</td>
+		    		<td>Monthly Rate ($)</td>
+		    		<td>Total Billed ($)</td>
+		    	</thead>
+		    	<tr>
+		    	</tr>
+		    </table>
+		    </div>
+		  </div>
+		</div>
+		<div class="panel panel-primary">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Add Employees</h3>
+		  </div>
+		  <div class="panel-body">
+		    <form>
+			    <label for="employeeName">Employee Name</label></br>
+			    <input type="name" id="employeeName">
+			    <label for="employeeRole">Role</label></br>
+			    <input type="name" id="employeeRole">
+			    <label for="startDate">Start Date</label></br>
+			    <input type="name" id="startDate">
+			    <label for="monthlyRate">Monthly Rate</label></br>
+			    <input type="name" id="monthlyRate">
+			</form>
+		  </div>
+		</div>
+	</div>
+	</body>
+</html>

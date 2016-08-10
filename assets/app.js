@@ -7,17 +7,11 @@ var config = {
   firebase.initializeApp(config);
 
 var database = firebase.database();
-var name = "";
-var role = "";
-var startDate;
-var monthlyRate;
-
-
 $("#submission").on("click", function(){
-	name = $("#employeeName").val().trim();
-	role = $("#employeeRole").val().trim();
-	startDate = $("#startDate").val().trim();
-	monthlyRate = $("#monthlyRate").val().trim();
+	var	name = $("#employeeName").val().trim();
+	var role = $("#employeeRole").val().trim();
+	var startDate = $("#startDate").val().trim();
+	var monthlyRate = $("#monthlyRate").val().trim();
 
 database.ref().push({
 	name: name,

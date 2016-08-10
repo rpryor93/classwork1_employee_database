@@ -1,10 +1,10 @@
 var config = {
-   apiKey: "AIzaSyBsuTEfTmEyhR_8z36d6f-PeAynGQf3sFg",
-   authDomain: "employee-data-group-project.firebaseapp.com",
-   databaseURL: "https://employee-data-group-project.firebaseio.com",
-   storageBucket: "employee-data-group-project.appspot.com",
- };
- firebase.initializeApp(config);
+    apiKey: "AIzaSyAnDBhlLe-rmDpw6CpZlOo6f6x0_Gc6lg8",
+    authDomain: "boomboom-a76d6.firebaseapp.com",
+    databaseURL: "https://boomboom-a76d6.firebaseio.com",
+    storageBucket: "boomboom-a76d6.appspot.com",
+  };
+  firebase.initializeApp(config);
 
 var database = firebase.database();
 var name = "";
